@@ -1,0 +1,103 @@
+[gd_scene load_steps=13 format=3 uid="uid://cpgwk2s5ogbun"]
+
+[ext_resource type="AudioStream" uid="uid://dduyhr11thr7" path="res://audio/arphros.ogg" id="1_f2ttm"]
+[ext_resource type="Script" path="res://scripts/References.cs" id="1_i03kw"]
+[ext_resource type="PackedScene" uid="uid://n6g816bog08g" path="res://prefabs/player.tscn" id="1_lvqpf"]
+[ext_resource type="Script" path="res://scripts/LevelManager.cs" id="2_0en52"]
+[ext_resource type="Sky" uid="uid://bjhacbpnrqfij" path="res://materials/UnitySkybox.tres" id="2_1bm3c"]
+[ext_resource type="Script" path="res://scripts/CameraPivot.cs" id="2_ogjyv"]
+[ext_resource type="PackedScene" uid="uid://bh4ddwf4b3oqe" path="res://prefabs/tail.tscn" id="3_nwy4m"]
+[ext_resource type="PackedScene" uid="uid://bopb3ccwkyie4" path="res://prefabs/die_piece.tscn" id="3_yc7wo"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_iyt6f"]
+albedo_color = Color(0, 0, 0, 1)
+metallic_specular = 1.0
+
+[sub_resource type="BoxMesh" id="BoxMesh_ccdfs"]
+material = SubResource("StandardMaterial3D_iyt6f")
+size = Vector3(25, 1, 25)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_flmrt"]
+size = Vector3(25, 1, 25)
+
+[sub_resource type="Environment" id="Environment_sdayq"]
+background_mode = 2
+sky = ExtResource("2_1bm3c")
+ambient_light_source = 2
+ambient_light_color = Color(0.773371, 0.825383, 0.847477, 1)
+ambient_light_energy = 0.55
+reflected_light_source = 1
+fog_mode = 1
+fog_density = 1.0
+fog_sky_affect = 0.0
+
+[node name="MainScene" type="Node3D"]
+
+[node name="Managers" type="Node3D" parent="."]
+
+[node name="References" type="Node3D" parent="Managers"]
+script = ExtResource("1_i03kw")
+
+[node name="LevelManager" type="Node3D" parent="Managers"]
+script = ExtResource("2_0en52")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_f2ttm")
+
+[node name="Base" type="Node3D" parent="."]
+
+[node name="Player" parent="Base" node_paths=PackedStringArray("Source", "Camera", "TailParent") instance=ExtResource("1_lvqpf")]
+Source = NodePath("../../AudioStreamPlayer")
+AnimationName = &""
+Camera = NodePath("../CameraPivot")
+TailParent = NodePath("../../Environment")
+Tail = ExtResource("3_nwy4m")
+DiePiece = ExtResource("3_yc7wo")
+Color = Color(1, 1, 1, 1)
+
+[node name="CameraPivot" type="Node3D" parent="Base" node_paths=PackedStringArray("Target")]
+transform = Transform3D(0.707107, 0.5, -0.5, 0, 0.707107, 0.707107, 0.707107, -0.5, 0.5, 5, 0, -5)
+script = ExtResource("2_ogjyv")
+Target = NodePath("../Player")
+LerpSpeed = 1.0
+
+[node name="Camera3D" type="Camera3D" parent="Base/CameraPivot"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 40)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Base"]
+transform = Transform3D(0.642788, -0.383022, 0.663414, 0, 0.866025, 0.5, -0.766044, -0.321394, 0.556671, 17.2652, 13.0124, 14.4872)
+shadow_enabled = true
+shadow_transmittance_bias = -0.52
+shadow_opacity = 0.7
+shadow_blur = 0.2
+
+[node name="Environment" type="Node3D" parent="."]
+
+[node name="AnimatableBody3D" type="AnimatableBody3D" parent="Environment"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Environment/AnimatableBody3D"]
+mesh = SubResource("BoxMesh_ccdfs")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Environment/AnimatableBody3D"]
+shape = SubResource("BoxShape3D_flmrt")
+
+[node name="AnimatableBody3D2" type="AnimatableBody3D" parent="Environment"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.8817, -6.55121, -21.7476)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Environment/AnimatableBody3D2"]
+mesh = SubResource("BoxMesh_ccdfs")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Environment/AnimatableBody3D2"]
+shape = SubResource("BoxShape3D_flmrt")
+
+[node name="Canvas" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_sdayq")

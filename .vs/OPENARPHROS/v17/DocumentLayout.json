@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Plethora\\Documents\\Godot\\openarphros\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2561991-17B7-4618-9345-CAF0E01C5BF4}|OpenArphros.csproj|c:\\users\\plethora\\documents\\godot\\openarphros\\scripts\\serializers\\objectimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2561991-17B7-4618-9345-CAF0E01C5BF4}|OpenArphros.csproj|solutionrelative:scripts\\serializers\\objectimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2561991-17B7-4618-9345-CAF0E01C5BF4}|OpenArphros.csproj|c:\\users\\plethora\\documents\\godot\\openarphros\\scripts\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2561991-17B7-4618-9345-CAF0E01C5BF4}|OpenArphros.csproj|solutionrelative:scripts\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2561991-17B7-4618-9345-CAF0E01C5BF4}|OpenArphros.csproj|c:\\users\\plethora\\documents\\godot\\openarphros\\scripts\\data\\projectdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2561991-17B7-4618-9345-CAF0E01C5BF4}|OpenArphros.csproj|solutionrelative:scripts\\data\\projectdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2561991-17B7-4618-9345-CAF0E01C5BF4}|OpenArphros.csproj|c:\\users\\plethora\\documents\\godot\\openarphros\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2561991-17B7-4618-9345-CAF0E01C5BF4}|OpenArphros.csproj|solutionrelative:scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2561991-17B7-4618-9345-CAF0E01C5BF4}|OpenArphros.csproj|c:\\users\\plethora\\documents\\godot\\openarphros\\scripts\\references.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2561991-17B7-4618-9345-CAF0E01C5BF4}|OpenArphros.csproj|solutionrelative:scripts\\references.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2561991-17B7-4618-9345-CAF0E01C5BF4}|OpenArphros.csproj|c:\\users\\plethora\\documents\\godot\\openarphros\\scripts\\gunihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2561991-17B7-4618-9345-CAF0E01C5BF4}|OpenArphros.csproj|solutionrelative:scripts\\gunihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2561991-17B7-4618-9345-CAF0E01C5BF4}|OpenArphros.csproj|c:\\users\\plethora\\documents\\godot\\openarphros\\scripts\\camerapivot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2561991-17B7-4618-9345-CAF0E01C5BF4}|OpenArphros.csproj|solutionrelative:scripts\\camerapivot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2561991-17B7-4618-9345-CAF0E01C5BF4}|OpenArphros.csproj|c:\\users\\plethora\\documents\\godot\\openarphros\\scripts\\converters\\arphrosjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2561991-17B7-4618-9345-CAF0E01C5BF4}|OpenArphros.csproj|solutionrelative:scripts\\converters\\arphrosjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ObjectImporter.cs",
+              "DocumentMoniker": "C:\\Users\\Plethora\\Documents\\Godot\\openarphros\\scripts\\Serializers\\ObjectImporter.cs",
+              "RelativeDocumentMoniker": "scripts\\Serializers\\ObjectImporter.cs",
+              "ToolTip": "C:\\Users\\Plethora\\Documents\\Godot\\openarphros\\scripts\\Serializers\\ObjectImporter.cs",
+              "RelativeToolTip": "scripts\\Serializers\\ObjectImporter.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T22:59:19.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProjectData.cs",
+              "DocumentMoniker": "C:\\Users\\Plethora\\Documents\\Godot\\openarphros\\scripts\\Data\\ProjectData.cs",
+              "RelativeDocumentMoniker": "scripts\\Data\\ProjectData.cs",
+              "ToolTip": "C:\\Users\\Plethora\\Documents\\Godot\\openarphros\\scripts\\Data\\ProjectData.cs",
+              "RelativeToolTip": "scripts\\Data\\ProjectData.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T22:50:01.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ArphrosJson.cs",
+              "DocumentMoniker": "C:\\USERS\\PLETHORA\\DOCUMENTS\\GODOT\\OPENARPHROS\\scripts\\Converters\\ArphrosJson.cs",
+              "RelativeDocumentMoniker": "scripts\\Converters\\ArphrosJson.cs",
+              "ToolTip": "C:\\USERS\\PLETHORA\\DOCUMENTS\\GODOT\\OPENARPHROS\\scripts\\Converters\\ArphrosJson.cs",
+              "RelativeToolTip": "scripts\\Converters\\ArphrosJson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T22:38:57.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "References.cs",
+              "DocumentMoniker": "C:\\USERS\\PLETHORA\\DOCUMENTS\\GODOT\\OPENARPHROS\\scripts\\References.cs",
+              "RelativeDocumentMoniker": "scripts\\References.cs",
+              "ToolTip": "C:\\USERS\\PLETHORA\\DOCUMENTS\\GODOT\\OPENARPHROS\\scripts\\References.cs",
+              "RelativeToolTip": "scripts\\References.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T22:04:23.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LevelManager.cs",
+              "DocumentMoniker": "C:\\USERS\\PLETHORA\\DOCUMENTS\\GODOT\\OPENARPHROS\\scripts\\LevelManager.cs",
+              "RelativeDocumentMoniker": "scripts\\LevelManager.cs",
+              "ToolTip": "C:\\USERS\\PLETHORA\\DOCUMENTS\\GODOT\\OPENARPHROS\\scripts\\LevelManager.cs",
+              "RelativeToolTip": "scripts\\LevelManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T22:02:46.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CameraPivot.cs",
+              "DocumentMoniker": "C:\\Users\\Plethora\\Documents\\Godot\\openarphros\\scripts\\CameraPivot.cs",
+              "RelativeDocumentMoniker": "scripts\\CameraPivot.cs",
+              "ToolTip": "C:\\Users\\Plethora\\Documents\\Godot\\openarphros\\scripts\\CameraPivot.cs",
+              "RelativeToolTip": "scripts\\CameraPivot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:10:48.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GUniHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Plethora\\Documents\\Godot\\openarphros\\scripts\\GUniHelper.cs",
+              "RelativeDocumentMoniker": "scripts\\GUniHelper.cs",
+              "ToolTip": "C:\\Users\\Plethora\\Documents\\Godot\\openarphros\\scripts\\GUniHelper.cs",
+              "RelativeToolTip": "scripts\\GUniHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:01:26.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Plethora\\Documents\\Godot\\openarphros\\scripts\\Player.cs",
+              "RelativeDocumentMoniker": "scripts\\Player.cs",
+              "ToolTip": "C:\\Users\\Plethora\\Documents\\Godot\\openarphros\\scripts\\Player.cs",
+              "RelativeToolTip": "scripts\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T15:54:14.81Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

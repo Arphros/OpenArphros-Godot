@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bh4ddwf4b3oqe"]
+
+[ext_resource type="BoxMesh" uid="uid://ded8gtfk2hert" path="res://meshes/player_box.tres" id="1_ihufh"]
+
+[node name="Tail" type="Node3D"]
+transform = Transform3D(-1, 0, 0, 0, -1, 0, 0, 0, 1, 0, 0, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_ihufh")
